@@ -1,5 +1,5 @@
 # src/input
 
 * ejecutar en este orden
-python write_script.py
-python read_script.py
+python src/write_script.py
+python src/read_script.py
