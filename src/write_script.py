@@ -15,7 +15,7 @@ def pdf_to_text(file_path):
     return text
 
 # Initialize text splitter and embeddings
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=500)
 embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")
 
 # Initialize Chroma DB client
